@@ -29,10 +29,10 @@ public class Calculator extends JFrame  {
             if (text.matches("[0-9]") || text.equals("0")) {
                 button.setBackground(Color.YELLOW);
             } else if (text.equals("C")) {
-                button.setBackground(Color.RED);
-                button.setForeground(Color.WHITE);
+                button.setBackground(Color.black);
+
             } else {
-                button.setBackground(Color.ORANGE);
+                button.setBackground(Color.green);
             }
 
             panel.add(button);
